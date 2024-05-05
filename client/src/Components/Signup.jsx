@@ -19,10 +19,12 @@ const Signup = () => {
       password,
     })
       .then((response) => {
-        if(response.data.status){
-          navigate('/login')
+        if (response.data.status) {
+          alert("User registered successfully");
+          navigate("/login");
+        } else {
+          alert(response.data.message);
         }
-       
       })
       .catch((err) => {
         console.log(err);
