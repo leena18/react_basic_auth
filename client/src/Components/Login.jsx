@@ -30,9 +30,9 @@ const Login = () => {
   };
 
   //function for forgot password
-  const handleForgotPassword = () => {
-    navigate("/forgotpassword");
-  };
+  // const handleForgotPassword = () => {
+  //   navigate("/forgotpassword");
+  // };
   return (
     <div className="d-flex justify-content-center align-items-center bd-secondary vh-100">
       <div className="bg-info p-3 rounded w-50">
